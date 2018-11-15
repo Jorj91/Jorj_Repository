@@ -17,6 +17,10 @@ rm(list = ls(all = TRUE))
 
 library(caret)
 
+install.packages("pacman")
+library("pacman")
+
+
 ##--------------------------------------- 
 #(EXAMPLE FROM THE RESOURCES) LINEAR REGRESSION (WHOLEYEAR)
 #IMPORTING DATA
